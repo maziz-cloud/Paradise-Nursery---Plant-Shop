@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Landing page background */
+.landing-container {
+  background-image: url('/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+.landing-container h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.company-description {
+  max-width: 600px;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.get-started-btn {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.get-started-btn:hover {
+  background-color: #2ecc71;
+}
+
+/* Header styles (used in App.jsx) */
+.header {
+  background-color: #2c3e50;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.cart-icon {
+  color: white;
+  font-size: 1.3rem;
+  position: relative;
+}
+
+.cart-badge {
+  background-color: #e74c3c;
+  border-radius: 50%;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+  margin-left: 0.3rem;
+}
